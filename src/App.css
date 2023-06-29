@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+:root {
+  --primary-color-dark: #075e54;
+  --primary-color-light: #128c7e;
+  --secondary-color-green: #25d366;
+  --secondary-color-blue: #34b7f1;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/whatsapp-bg.png");
+}
+
+.flex {
+  display: flex;
+}
