@@ -14,7 +14,7 @@
 .container {
   width: 100vw;
   height: 100vh;
-  background-image: url("./images/whatsapp-bg.png");
+  background-image: url("/images/whatsapp-bg.png");
 }
 
 .flex {
