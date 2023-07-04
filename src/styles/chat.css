@@ -79,7 +79,7 @@
   gap: 3px;
 }
 .chat-box {
-  /* display: flex; */
+  display: flex;
 }
 .display-picture {
   width: 20px;
@@ -89,7 +89,7 @@
 }
 
 .user-info {
-  display: flex;
+  /* display: flex; */
   gap: 5px;
 }
 .text-message {

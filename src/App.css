@@ -11,10 +11,13 @@
   --secondary-color-blue: #34b7f1;
 }
 
+body {
+  background-image: url("/images/whatsapp-bg.png");
+  background-attachment: fixed;
+}
+
 .container {
   width: 100vw;
-  height: 100vh;
-  background-image: url("/images/whatsapp-bg.png");
 }
 
 .flex {
