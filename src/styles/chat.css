@@ -1,7 +1,7 @@
 .chat-app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: center; */
   font-family: sans-serif;
   width: 90%;
   margin: 100px auto;
@@ -18,7 +18,6 @@
 .messages {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   width: 100%;
   height: 80%;
   overflow-y: auto;
@@ -34,6 +33,7 @@
   color: white;
   padding: 10px;
   border-radius: 16px;
+  font-size: 1.2rem;
 }
 
 .user {
@@ -82,8 +82,8 @@
   display: flex;
 }
 .display-picture {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -98,8 +98,8 @@
 }
 
 .message-1 {
-  float: left;
+  align-self: flex-start;
 }
 .message-2 {
-  float: right;
+  align-self: flex-end;
 }
