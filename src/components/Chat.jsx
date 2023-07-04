@@ -59,6 +59,20 @@ export const Chat = (props) => {
         </div>
         <div className="messages">
           {messages.map((message) => {
+            {
+              /* Time in message */
+            }
+            const dateObject = message.createdAt.toDate();
+            const hours = dateObject.getHours();
+            const minutes = dateObject.getMinutes();
+            const hoursString = String(hours).padStart(2, "0");
+            const minutesString = String(minutes).padStart(2, "0");
+
+            const outputString = `${hoursString}:${minutesString}`;
+
+            {
+              /* Adding class to messages */
+            }
             let senderId;
             if (message.messageId === auth.currentUser.uid) senderId = 1;
             else senderId = 2;
@@ -73,7 +87,10 @@ export const Chat = (props) => {
                   <div className="user-info">
                     <h4 className="user">{message.user}</h4>
                   </div>
-                  <h5 className="text-message">{message.text}</h5>
+                  <div className="flex message-info">
+                    <h5 className="text-message">{message.text}</h5>
+                    <h5>{outputString}</h5>
+                  </div>
                 </div>
               </div>
             );

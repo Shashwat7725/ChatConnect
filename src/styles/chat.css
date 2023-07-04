@@ -93,7 +93,6 @@
   gap: 5px;
 }
 .text-message {
-  margin-top: 4px;
   font-weight: lighter;
 }
 
@@ -102,4 +101,11 @@
 }
 .message-2 {
   align-self: flex-end;
+}
+
+.message-info {
+  padding-block: 10px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
 }
