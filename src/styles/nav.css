@@ -38,3 +38,28 @@ nav h1 {
   font-size: 18px;
   cursor: pointer;
 }
+
+.nav-title {
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .sign-out {
+    width: 96px;
+    height: 42px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .nav-title {
+    gap: 10px;
+  }
+  .sign-out {
+    width: 90px;
+    height: 35px;
+    font-size: 0.8rem;
+  }
+  .nav-img {
+    width: 7vw;
+  }
+}

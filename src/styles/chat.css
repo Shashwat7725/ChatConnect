@@ -109,3 +109,39 @@
   align-items: center;
   gap: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .message {
+    font-size: 0.9rem;
+  }
+  .header {
+    font-size: 1.5rem;
+  }
+  .display-picture {
+    width: 30px;
+    height: 30px;
+  }
+  nav h1 {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .user {
+    font-size: 0.8rem;
+  }
+  .message {
+    margin-bottom: 20px;
+    height: 11vh;
+  }
+  .display-picture {
+    width: 20px;
+    height: 20px;
+  }
+  nav h1 {
+    font-size: 1.5rem;
+  }
+  .header {
+    font-size: 1.2rem;
+  }
+}

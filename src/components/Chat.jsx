@@ -54,8 +54,8 @@ export const Chat = (props) => {
     <div className="container">
       <NavWithSignOut signUserOut={signUserOut} />
       <div className="chat-app">
-        <div className="header">
-          <h1>Welcome to {room.toUpperCase()}</h1>
+        <div>
+          <h1 className="header">Welcome to {room.toUpperCase()}</h1>
         </div>
         <div className="messages">
           {messages.map((message) => {

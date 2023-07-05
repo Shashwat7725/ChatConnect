@@ -4,7 +4,7 @@ const NavWithSignOut = ({ signUserOut }) => {
   return (
     <>
       <nav className="nav-room">
-        <div className="flex">
+        <div className="flex nav-title">
           <img src="/images/whatsapp-logo.svg" className="nav-img"></img>
           <h1>ChatConnect</h1>
         </div>
